@@ -48,7 +48,7 @@ Laravel
 
 Search on google for Laravel CVE we can find this blog post:&#x20;
 
-[Resource Link](https://pentest-tools.com/blog/exploit-rce-vulnerability-laravel-cve-2021-3129)
+[Laravel RCE CVE-2021-3129 Explanation](https://pentest-tools.com/blog/exploit-rce-vulnerability-laravel-cve-2021-3129)
 
 :::note
 CVE-2021-3129

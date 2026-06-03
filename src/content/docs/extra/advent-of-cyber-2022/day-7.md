@@ -3,7 +3,7 @@ title: "Day 7"
 ---
 
 
-[Resource Link](https://gchq.github.io/CyberChef/)
+[CyberChef Web Application](https://gchq.github.io/CyberChef/)
 
 ### What is the version of CyberChef found in the attached VM?
 

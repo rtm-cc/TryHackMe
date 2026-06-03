@@ -175,7 +175,7 @@ Defense Evasion
 
 ![](../../.gitbook/assets/image-4.png)
 
-[Resource Link](https://labs.inquest.net/dfi/sha256/0827bb9a2e7c0628b82256759f0f888ca1abd6a2d903acdb8e44aca6a1a03467)
+[InQuest Labs DFI SHA-256 Lookup](https://labs.inquest.net/dfi/sha256/0827bb9a2e7c0628b82256759f0f888ca1abd6a2d903acdb8e44aca6a1a03467)
 
 ### What is the subcategory of the file?
 

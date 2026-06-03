@@ -3,7 +3,7 @@ title: "Day 11"
 ---
 
 
-[Resource Link](https://github.com/volatilityfoundation/volatility)
+[Volatility Foundation GitHub Repository](https://github.com/volatilityfoundation/volatility)
 
 ![](../../.gitbook/assets/image.png)
 

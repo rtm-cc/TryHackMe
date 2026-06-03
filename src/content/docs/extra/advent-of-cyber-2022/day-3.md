@@ -17,9 +17,7 @@ Namecheap Inc
 
 ### Find the website's source code (repository) on [github.com](https://github.com/) and open the file containing sensitive credentials. Can you find the flag?
 
-Repo link
-
-[Resource Link](https://github.com/search?q=santagiftshop)
+[GitHub Search: santagiftshop](https://github.com/search?q=santagiftshop)
 
 ![](<../../.gitbook/assets/image-5-2-1.png>)
 
