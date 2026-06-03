@@ -1,22 +1,31 @@
+# 🥷 TryHackMe Walkthroughs
+
+This repository contains **TryHackMe Walkthroughs**, migrated to **Astro Starlight** for a premium reading experience, modern styling, and automated deployments.
+
+## 🌐 Live Site
+The site is automatically built and deployed to GitHub Pages at:
+👉 **[https://seclabs-cc.github.io/TryHackMe/](https://seclabs-cc.github.io/TryHackMe/)**
+
 ---
-cover: .gitbook/assets/tryhackme.png
-coverY: -32.11808118081181
+
+## 🚀 Running Locally
+
+To run the documentation site on your local machine:
+
+1. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+2. **Start the local dev server:**
+   ```bash
+   npm run dev
+   ```
+3. Open **[http://localhost:4321/TryHackMe/](http://localhost:4321/TryHackMe/)** in your browser.
+
+For more details, please see the [RUN_LOCALLY.md](RUN_LOCALLY.md) guide.
+
 ---
 
-# 🥷 TryHackMe
-
-{% hint style="info" %}
-🐙 [GitHub](https://github.com/insecurecodes) 🌐[insecure.codes](https://www.insecure.codes/) 🕵️ [About me](https://rtm.codes/)
-{% endhint %}
-
-
-
-#### Other Projects
-
-{% embed url="https://insecurecodes.gitbook.io/redbook/" %}
-Red Team Handbook
-{% endembed %}
-
-{% embed url="https://insecurecodes.gitbook.io/hackthebox/" %}
-Machines Walkthrough
-{% endembed %}
+## 🛠️ Built With
+- [Astro](https://astro.build/) - The web framework for content-driven websites.
+- [Starlight](https://starlight.astro.build/) - Astro's official documentation theme.

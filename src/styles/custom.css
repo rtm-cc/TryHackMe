@@ -1,0 +1,40 @@
+/* Custom styles for 🥷 TryHackMe */
+
+:root {
+	/* TryHackMe Red-Orange accents */
+	--sl-color-accent-low: hsl(20, 50%, 15%);
+	--sl-color-accent: hsl(20, 80%, 46%);
+	--sl-color-accent-high: hsl(20, 90%, 65%);
+
+	/* Text accent */
+	--sl-color-text-accent: var(--sl-color-accent-high);
+
+	/* Dark mode gray scale (deep charcoal/red-orange black) */
+	--sl-color-black: hsl(20, 8%, 4%);
+	--sl-color-bg: hsl(20, 8%, 6%);
+	--sl-color-bg-nav: hsl(20, 8%, 8%);
+	--sl-color-bg-sidebar: hsl(20, 8%, 7%);
+	
+	/* Font family stack */
+	--sl-font: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+/* Light mode overrides */
+:root[data-theme='light'] {
+	--sl-color-accent-low: hsl(20, 70%, 90%);
+	--sl-color-accent: hsl(20, 80%, 38%);
+	--sl-color-accent-high: hsl(20, 90%, 20%);
+	
+	--sl-color-black: hsl(20, 8%, 98%);
+	--sl-color-bg: hsl(20, 8%, 96%);
+	--sl-color-bg-nav: hsl(20, 8%, 93%);
+	--sl-color-bg-sidebar: hsl(20, 8%, 94%);
+}
+
+/* Smooth transitions for links and interactive elements */
+a {
+	transition: color 0.2s ease-in-out;
+}
+a:hover {
+	color: var(--sl-color-accent-high);
+}
