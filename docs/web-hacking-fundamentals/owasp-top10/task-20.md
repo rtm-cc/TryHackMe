@@ -2,7 +2,6 @@
 title: "Task 20"
 ---
 
-
 ### Navigate to [http://10.10.172.84/](http://10.10.172.84/) in your browser and click on the "Reflected XSS" tab on the navbar; craft a reflected XSS payload that will cause a popup saying "Hello". <a href="#navigate-to-http101017284-in-your-browser-and-click-on-the-reflected-xss-tab-on-the-navbar-craft-a-r" id="navigate-to-http101017284-in-your-browser-and-click-on-the-reflected-xss-tab-on-the-navbar-craft-a-r"></a>
 
 On input search

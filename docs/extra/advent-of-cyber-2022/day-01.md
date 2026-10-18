@@ -2,7 +2,6 @@
 title: "Day 1"
 ---
 
-
 ## Puzzle 1
 
 **Clues:**
@@ -47,12 +46,11 @@ title: "Day 1"
 
 * Who is the adversary that attacked Santa's network this year?
 
-:::note
-The Bandit Yeti!
-:::
+!!! note
+    The Bandit Yeti!
 
 * What's the flag that they left behind?
 
-:::note
-THM{IT'S A Y3T1 CHR1$TMA$}
-:::
+!!! note
+    THM{IT'S A Y3T1 CHR1$TMA$}
+

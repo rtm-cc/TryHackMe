@@ -2,7 +2,6 @@
 title: "Task 29"
 ---
 
-
 ### How many characters are in /etc/passwd (use wc -c /etc/passwd to get the answer) <a href="#how-many-characters-are-in-etcpasswd-use-wc--c-etcpasswd-to-get-the-answer" id="how-many-characters-are-in-etcpasswd-use-wc--c-etcpasswd-to-get-the-answer"></a>
 
 Look for CSE bookstore exploit on google and found the: `Online Book Store 1.0 - Unauthenticated Remote Code Execution` [on this link](https://www.exploit-db.com/exploits/47887)

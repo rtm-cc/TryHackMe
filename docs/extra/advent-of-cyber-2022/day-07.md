@@ -2,16 +2,14 @@
 title: "Day 7"
 ---
 
-
 [CyberChef Web Application](https://gchq.github.io/CyberChef/)
 
 ### What is the version of CyberChef found in the attached VM?
 
 ![](<../../assets/image-8.png>)![](<../../assets/image-20.png>)
 
-:::note
-9.49.0
-:::
+!!! note
+    9.49.0
 
 ### How many recipes were used to extract URLs from the malicious doc?
 
@@ -26,9 +24,8 @@ title: "Day 7"
 9. Split
 10. Defang URL
 
-:::note
-10
-:::
+!!! note
+    10
 
 ### We found a URL that was downloading a suspicious file; what is the name of that malware? 
 
@@ -36,18 +33,16 @@ title: "Day 7"
 
 Last step will solve the next 3 questions
 
-:::note
-mysterygift.exe
-:::
+!!! note
+    mysterygift.exe
 
 ### What is the last defanged URL of the bandityeti domain found in the last step?
 
-:::note
-hxxps\[://]cdn\[.]bandityeti\[.]THM/files/index/
-:::
+!!! note
+    hxxps\[://]cdn\[.]bandityeti\[.]THM/files/index/
 
 ### What is the ticket found in one of the domains? (Format: Domain/\<GOLDEN\_FLAG>)
 
-:::note
-THM\_MYSTERY\_FLAG
-:::
+!!! note
+    THM\_MYSTERY\_FLAG
+

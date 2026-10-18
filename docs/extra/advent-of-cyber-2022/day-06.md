@@ -2,7 +2,6 @@
 title: "Day 6"
 ---
 
-
 ```
 X-Pm-Content-Encryption: end-to-end
 X-Pm-Origin: internal
@@ -48,27 +47,23 @@ Content-Disposition: attachment; filename="Division_of_labour-Load_share_plan.do
 
 ### What is the email address of the sender?
 
-:::note
-chief.elf@santaclaus.thm
-:::
+!!! note
+    chief.elf@santaclaus.thm
 
 ### What is the return address?
 
-:::note
-murphy.evident@bandityeti.thm
-:::
+!!! note
+    murphy.evident@bandityeti.thm
 
 ### On whose behalf was the email sent?
 
-:::note
-Chief Elf
-:::
+!!! note
+    Chief Elf
 
 ### What is the X-spam score?
 
-:::note
-3
-:::
+!!! note
+    3
 
 ### What is hidden in the value of the Message-ID field?
 
@@ -76,9 +71,8 @@ Chief Elf
 echo -n "QW9DMjAyMl9FbWFpbF9BbmFseXNpcw==" |base64 -d
 ```
 
-:::note
-AoC2022\_Email\_Analysis
-:::
+!!! note
+    AoC2022\_Email\_Analysis
 
 ## Visit the email reputation check website provided in the task.&#x20;
 
@@ -86,17 +80,15 @@ AoC2022\_Email\_Analysis
 
 ![](../../assets/image-16.png)
 
-:::note
-RISKY
-:::
+!!! note
+    RISKY
 
 ## Check the attachments.
 
 ### What is the filename of the attachment?
 
-:::note
-Division\_of\_labour-Load\_share\_plan.doc
-:::
+!!! note
+    Division\_of\_labour-Load\_share\_plan.doc
 
 ### What is the hash value of the attachment?
 
@@ -153,9 +145,8 @@ workload is shared with the rest to avoid any toy production delay.</span></div>
 sha256sum Division_of_labour-Load_share_plan.doc
 ```
 
-:::note
-0827bb9a2e7c0628b82256759f0f888ca1abd6a2d903acdb8e44aca6a1a03467
-:::
+!!! note
+    0827bb9a2e7c0628b82256759f0f888ca1abd6a2d903acdb8e44aca6a1a03467
 
 ## Visit the Virus Total website and use the hash value to search.&#x20;
 
@@ -167,9 +158,8 @@ Navigate to the behaviour section.
 
 ![](../../assets/image-2-2.png)
 
-:::note
-Defense Evasion
-:::
+!!! note
+    Defense Evasion
 
 ## Visit the InQuest website and use the hash value to search.&#x20;
 
@@ -181,6 +171,6 @@ Defense Evasion
 
 ![](../../assets/image-15.png)
 
-:::note
-macro\_hunter
-:::
+!!! note
+    macro\_hunter
+

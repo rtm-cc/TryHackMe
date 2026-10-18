@@ -2,7 +2,6 @@
 title: "Day 4"
 ---
 
-
 ### What is the name of the HTTP server running on the remote host?
 
 ```bash
@@ -11,17 +10,15 @@ nmap -sV 10.10.103.165
 
 ![](../../assets/image-5-2.png)
 
-:::note
-Apache
-:::
+!!! note
+    Apache
 
 ### What is the name of the service running on port 22 on the QA server?
 
 ![](../../assets/image-1-3.png)
 
-:::note
-SSH
-:::
+!!! note
+    SSH
 
 ### What flag can you find after successfully accessing the Samba service?
 
@@ -30,14 +27,13 @@ SSH
 * Username: ubuntu
 * Password: S@nta2022
 
-:::note
-{THM\_SANTA\_SMB\_SERVER}
-:::
+!!! note
+    {THM\_SANTA\_SMB\_SERVER}
 
 ### What is the password for the username santahr?
 
 ![](../../assets/image-11-1.png)
 
-:::note
-santa25
-:::
+!!! note
+    santa25
+

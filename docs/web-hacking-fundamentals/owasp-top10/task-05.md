@@ -2,7 +2,6 @@
 title: "Task 5"
 ---
 
-
 ### What strange text file is in the website root directory? <a href="#what-strange-text-file-is-in-the-website-root-directory" id="what-strange-text-file-is-in-the-website-root-directory"></a>
 
 ```

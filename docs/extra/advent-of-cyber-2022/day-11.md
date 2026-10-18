@@ -2,7 +2,6 @@
 title: "Day 11"
 ---
 
-
 [Volatility Foundation GitHub Repository](https://github.com/volatilityfoundation/volatility)
 
 ![](../../assets/image.png)
@@ -39,9 +38,8 @@ PE TimeDateStamp  Mon Apr 14 21:36:50 2104
 
 \-> Major version = 10
 
-:::note
-10
-:::
+!!! note
+    10
 
 ## What is the name of the binary/gift that secret Santa left?
 
@@ -55,21 +53,19 @@ PID PPID  ImageFileName Offset(V) Threads Handles SessionId Wow64 CreateTime  Ex
 
 ```
 
-:::note
-```
-mysterygift.exe
-```
-:::
+!!! note
+    ```
+    mysterygift.exe
+    ```
 
 ## What is the Process ID (PID) of this binary?
 
 Answer was given in the previous command
 
-:::note
-```
-2040
-```
-:::
+!!! note
+    ```
+    2040
+    ```
 
 ## Dump the contents of this binary. How many files are dumped?
 
@@ -79,6 +75,6 @@ python3 vol.py -f workstation.vmem windows.dumpfiles --pid 2040
 
 ![](../../assets/image-11.png)
 
-:::note
-16
-:::
+!!! note
+    16
+
