@@ -142,6 +142,10 @@ export default defineConfig({
                 {
                   label: "Day 11",
                   slug: "extra/advent-of-cyber-2022/day-11"
+                },
+                {
+                  label: "Day 12",
+                  slug: "extra/advent-of-cyber-2022/day-12"
                 }
               ]
             }
