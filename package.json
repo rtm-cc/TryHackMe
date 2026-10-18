@@ -3,10 +3,12 @@
   "type": "module",
   "version": "0.0.1",
   "scripts": {
-    "dev": "astro dev",
-    "start": "astro dev",
-    "build": "astro build",
-    "preview": "astro preview",
+    "dev": "uv tool run zensical serve -a 127.0.0.1:4321 || zensical serve -a 127.0.0.1:4321",
+    "start": "uv tool run zensical serve -a 127.0.0.1:4321 || zensical serve -a 127.0.0.1:4321",
+    "build": "uv tool run zensical build || zensical build",
+    "preview": "uv tool run zensical serve -a 127.0.0.1:4321 || zensical serve -a 127.0.0.1:4321",
+    "astro:dev": "astro dev",
+    "astro:build": "astro build",
     "astro": "astro"
   },
   "dependencies": {
