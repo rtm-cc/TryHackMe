@@ -45,7 +45,7 @@ description: "Detailed walkthroughs and solve paths of TryHackMe rooms, paths, a
 
     Complete solve paths and analysis for the Advent of Cyber 2022 security challenges (Days 1–12).
 
-    [:octicons-arrow-right-24: View Walkthroughs](./extra/advent-of-cyber-2022/day-1/)
+    [:octicons-arrow-right-24: View Walkthroughs](./extra/advent-of-cyber-2022/day-01/)
 
 </div>
 
