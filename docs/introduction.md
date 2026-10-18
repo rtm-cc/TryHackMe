@@ -23,14 +23,14 @@ TryHackMe offers incredible structured learning paths covering red teaming, web 
 
 Our TryHackMe notes are categorized by key learning areas:
 
-### 🕸️ [Web Hacking Fundamentals](/TryHackMe/web-hacking-fundamentals/owasp-top10/)
+### 🕸️ [Web Hacking Fundamentals](../web-hacking-fundamentals/owasp-top10/)
 *   Detailed review and exercises solving the **OWASP Top 10** rooms, exploring core web security flaws.
 
-### 🐧 [Jr Penetration Tester](/TryHackMe/jr-penetration-tester/introduction-to-cyber-security/)
+### 🐧 [Jr Penetration Tester](../jr-penetration-tester/introduction-to-cyber-security/)
 *   Introductory rooms and basic security concepts.
 
-### 🥷 [Red Teaming](/TryHackMe/red-teaming/red-team-fundamentals/)
+### 🥷 [Red Teaming](../red-teaming/red-team-fundamentals/)
 *   Offensive security concepts, active directory basics, and red team fundamentals.
 
-### 🎄 [Extra Paths](/TryHackMe/extra/advent-of-cyber-2022/)
-*   Special events writeups (e.g. **Advent of Cyber 2022** solving days 1 through 11).
+### 🎄 [Extra Paths](../extra/advent-of-cyber-2022/)
+*   Special events writeups (e.g. **Advent of Cyber 2022** solving days 1 through 12).

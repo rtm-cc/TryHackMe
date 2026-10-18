@@ -39,11 +39,11 @@ Adding new documentation is completely automatic:
 
 ---
 
-## 🔄 How to Revert to Astro Starlight
+## 🔄 Looking for the Old Astro Starlight Setup?
 
-If you prefer to return to the original Astro Starlight setup, simply switch back to the `main` branch:
+The original Astro Starlight version is preserved on the `archive/astro` branch:
 
 ```bash
-git checkout main
+git checkout archive/astro
 npm run dev
 ```
